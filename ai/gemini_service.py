@@ -19,13 +19,13 @@ Your goal is to extract the following fields from the invoice:
     - "currency" 
     
     
-    Seller Informations:
+    Seller Information:
     - "seller_name"
     - "seller_address"
     - "seller_phone"
     - "seller_siret_number" (French business ID number)
     
-    Customer Informations:
+    Customer Information:
     - "customer_name"
     - "customer_address"
     - "customer_phone"
@@ -49,6 +49,9 @@ Guidelines:
 - Your response must be in pure JSON format.
 
 OCR Text:
+
+
+
 
 \"\"\"{text}\"\"\"
 """
